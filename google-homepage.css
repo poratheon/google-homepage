@@ -6,12 +6,18 @@ li {
     float:  left;
     padding:  8px;
 }
-
-div {
-    display: block;
-    text-align:  center;
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
 }
-form {
-    display:  block;
-    text-align:  center;
+input[type=text] {
+    position:  relative;
+    padding: 13px ;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-color: rgb(223, 225, 229);
+    width: 550px;
 }
